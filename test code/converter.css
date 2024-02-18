@@ -1,0 +1,74 @@
+body{
+    margin: 10px;
+    background-color: white;
+}
+#home{
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    padding-bottom: 2cm;
+    background-color: darkviolet;
+}
+header{
+    font-size: 30px;
+    color: rgb(200, 85, 200);
+    float: left;
+    padding-left: 2cm;
+}
+nav{
+    float: right;
+    padding-right: 1cm;
+}
+button{
+    color: lightgray;
+    background-color: darkviolet;
+    margin-top: 58px;
+    padding: 1px;
+    font-size: 10px;
+}
+
+button:hover{
+    color: white;
+    font-weight: bolder;
+    background-color: purple;
+}
+
+#all-conversion-sections{
+    display: grid;
+    justify-content: center;
+}
+figure{
+    float: left;
+    justify-self: auto;
+    width: 200px;
+}
+
+img{
+    width: 200px;
+}
+
+figcaption{
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+#temperature1, #weight1, #distance1{
+    font-size: 20px;
+    border: transparent;
+    border-radius: 40px;
+    width: fit-content;
+    background-color: lightgreen;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+button:hover{
+    cursor: pointer;
+}
+.b{
+    border-top-style: solid;
+    border-top-width: 20px;
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+}
